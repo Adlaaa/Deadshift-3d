@@ -1,0 +1,45 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node / package caches
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+
+# Workspace / tool caches
+.arena/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.turbo/
+.vite/
+coverage/
+out/
+build/
+dist/
+target/
+
+# Local probes / temp / logs
+_probe.bin
+*.log
+
+# (index.html and assets/ are intentionally NOT ignored — they ship the game.)
